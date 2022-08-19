@@ -1,0 +1,27 @@
+h2{
+    color: darkblue;
+}
+.button {
+background-color: rgb(25, 110, 230);
+color: white;
+border-radius: 13px;
+width: 70px;
+height: 40px;
+font-size: 12px;
+font-family: sans-serif;
+}
+.a{
+border: 20px solid rgb(15, 17, 55);
+border-radius: 15px;
+width: 300px;
+margin: auto;
+padding-bottom: 30px;
+padding-left: 10px;
+height: 300px;
+font-family: sans-serif;
+}
+body {
+margin-top: 40px;
+font-family: sans-serif;
+color: darkblue;
+}
