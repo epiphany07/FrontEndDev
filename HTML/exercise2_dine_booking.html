@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DiningBooking</title>
+    </head>
+    <body>
+        <center>
+        <table>
+            <br><br><br>
+            <h3>Dine booking</h3><br>
+            <table>
+            <tr><td><label>Visitor Name :</label> </td> 
+            <td><input type="text" maxlength="20" required autofocus ></td></tr>
+            
+            <tr><td><label>Number of members:</label> </td>
+            <td><input type="number" max="99"></td></tr>
+            <tr><td><label>Contact No:</label></td>
+            <td><input type="tel" ></td></tr>
+            <tr><td><label>Email: </label></td><td>
+            <input type="email"></td></tr>
+            <tr><td><label name="food" required>Type of Food : </label></td>
+            
+            <td><input type="checkbox" id="t1"  name="food" checked>
+                <label for="t1">South Indian</label> 
+                <input type="checkbox" id="t2" name="food">
+                <label for="t2">North Indian</label> 
+                <input type="checkbox" id="t3" name="food">
+                <label for="t3">Chinese</label>
+                <input type="checkbox" id="t4" name="food">
+                <label for="t4">Western</label> </td></tr>
+            <tr><td><label>Room Status :</label></td>
+            <td><input type="radio" id="t1" name="room" checked >
+                <label for="t1" >AC</label>
+                <input type="radio" id="t2" name="room">
+                <label for="t2" >Non-AC</label></td></tr>
+            <tr><td><label>Venue Preference: </label></td><td><select required>
+                <option value="">--SELECT--</option>
+                <option id="arena">Arena</option>
+                <option id="fiesta">Fiesta</option>
+                <option id="vista">Vista</option>
+                <option id="mythri">Mythri</option>
+                <option id="magna">Magna</option>
+                <option id="oasis">Oasis</option>
+                <option id="amoeba" disabled="true">Amoeba</option>
+            </select></td></tr>   
+            <tr><td><input type="submit" value="BOOK" ></td><td><input type="reset" value="RESET" ></td></tr>
+        </table>
+        </table>       
+
+            
+        </center>
+    </body>
+</html>
